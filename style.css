@@ -48,25 +48,28 @@ p{
     background-repeat: none;
     background-position: right;
 }
-/* .single-experiance{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    height: 40px;
-    background-color: white;
-
-} */
-.experiance-area .half-width{
+.single-experiance{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     height: 400px;
     background-color: white;
+
 }
+/* .experiance-area .half-width{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 400px;
+    background-color: white;
+} */
 .experiance-area{
     background-image: url(images/exp-bg.png);
     background-repeat: none;
     background-position: left;
-    //float: left;
+    
 
+}
+.experiance-area p{
+    max-width: 100%;
 }
 #full-stack{
     border-left: 7px solid;
@@ -82,7 +85,7 @@ p{
 footer p{
     text-align: center;
     font-size: 15px;
-   
+   max-width: 100%;
     color: white;
     
     
@@ -91,4 +94,5 @@ footer{
     margin-top: 150px;
     font-size: 25px;
     background-color:  gray;
+    max-height: 100%;
 }
